@@ -1,0 +1,32 @@
+{
+  "angularJSSuffix": "mySuffix",
+  "annotations": {
+    "changelogDate": "20240223191515"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "equipe",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Equipe",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "servidor",
+      "otherEntityRelationshipName": "equipes",
+      "relationshipName": "servidores",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

@@ -1,0 +1,31 @@
+{
+  "iceaApp": {
+    "diaria": {
+      "home": {
+        "title": "Diarias",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Diaria",
+        "createOrEditLabel": "Criar ou editar Diaria",
+        "notFound": "Nenhum Diaria encontrado"
+      },
+      "created": "Um novo Diaria foi criado com o identificador { param }",
+      "updated": "Um Diaria foi atualizado com o identificador { param }",
+      "deleted": "Um Diaria foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Diaria { id }?"
+      },
+      "detail": {
+        "title": "Diaria"
+      },
+      "id": "Id",
+      "cidade": "Cidade",
+      "oficialSup": "Oficial Sup",
+      "oficial": "Oficial",
+      "graduado": "Graduado",
+      "praca": "Praca",
+      "civil": "Civil",
+      "localidade": "Localidade",
+      "missao": "Missao"
+    }
+  }
+}

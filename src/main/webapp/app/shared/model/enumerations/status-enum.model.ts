@@ -1,0 +1,11 @@
+export enum StatusEnum {
+  APROVADA = 'APROVADA',
+
+  CANCELADA = 'CANCELADA',
+
+  AGUARDANDO = 'AGUARDANDO',
+
+  FINALIZADA = 'FINALIZADA',
+
+  PRODUZIR = 'PRODUZIR',
+}

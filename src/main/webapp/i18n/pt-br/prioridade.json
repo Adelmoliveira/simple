@@ -1,0 +1,10 @@
+{
+  "iceaApp": {
+    "Prioridade": {
+      "null": "",
+      "ALTA": "ALTA",
+      "MEDIA": "MEDIA",
+      "BAIXA": "BAIXA"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "angularJSSuffix": "mySuffix",
+  "annotations": {
+    "changelogDate": "20240223191015"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "setor",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sigla",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "Setor",
+  "relationships": [
+    {
+      "otherEntityName": "servidor",
+      "otherEntityRelationshipName": "setor",
+      "relationshipName": "servidor",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

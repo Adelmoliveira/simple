@@ -1,0 +1,11 @@
+id;nome_missao;prioridade;quantidade_diaria;meia_diaria;quantidade_equipe;data_inicio;data_termino;deslocamento;passagem_aerea;status;osverificada;acao;valor_total_missao;valor_diarias_realizadas;saldo_disponivel
+1;faze;BAIXA;982;false;13109;2024-02-23;2024-02-23;true;false;AGUARDANDO;true;AGUARDANDO;PLANEJADAS;29579.04;27040.75
+2;oof;MEDIA;16853;false;14037;2024-02-23;2024-02-23;false;true;PRODUZIR;false;PRODUZIR;SALDO;32362.87;28997.44
+3;upwardly subdued craft;MEDIA;5189;true;32024;2024-02-23;2024-02-23;true;true;APROVADA;false;AGUARDANDO;REALIZADO;24082.27;32426.98
+4;incomplete;MEDIA;12572;true;10326;2024-02-23;2024-02-22;true;false;FINALIZADA;true;APROVADA;REALIZADO;2191.4;8466.29
+5;duh;ALTA;3790;false;27022;2024-02-23;2024-02-23;true;false;APROVADA;true;AGUARDANDO;PLANEJADAS;21742.89;7717.87
+6;evaporation ventilate furthermore;MEDIA;8394;false;7142;2024-02-23;2024-02-23;true;false;FINALIZADA;true;AGUARDANDO;DISPONIBILIZADO;9298.77;15480.18
+7;whoa stroll;BAIXA;6218;true;19009;2024-02-23;2024-02-23;false;true;PRODUZIR;false;AGUARDANDO;PROPOSTA;1052.87;24895.53
+8;droopy tune-up cabinet;BAIXA;21584;false;20968;2024-02-23;2024-02-22;true;false;APROVADA;false;AGUARDANDO;SALDO;30237.36;8862.96
+9;trick;MEDIA;19124;false;2957;2024-02-23;2024-02-23;true;true;PRODUZIR;true;CANCELADA;SALDO;20141.87;3028.32
+10;across mentor boohoo;ALTA;10622;true;10438;2024-02-23;2024-02-22;false;true;CANCELADA;true;PRODUZIR;TOTALAPROVADO;16149.1;11516.8

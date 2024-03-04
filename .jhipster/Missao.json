@@ -1,0 +1,99 @@
+{
+  "angularJSSuffix": "mySuffix",
+  "annotations": {
+    "changelogDate": "20240223191315"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "missao",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "nomeMissao",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "prioridade",
+      "fieldType": "Prioridade",
+      "fieldValues": "ALTA,MEDIA,BAIXA"
+    },
+    {
+      "fieldName": "quantidadeDiaria",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "meiaDiaria",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "quantidadeEquipe",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dataInicio",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dataTermino",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "deslocamento",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "passagemAerea",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "StatusEnum",
+      "fieldValues": "APROVADA,CANCELADA,AGUARDANDO,FINALIZADA,PRODUZIR"
+    },
+    {
+      "fieldName": "osverificada",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "acao",
+      "fieldType": "AcaoEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "APROVADA,CANCELADA,AGUARDANDO,PRODUZIR"
+    },
+    {
+      "fieldName": "valorTotalMissao",
+      "fieldType": "OrcamentoEnum",
+      "fieldValues": "DISPONIBILIZADO,REALIZADO,PROPOSTA,SALDO,TOTALAPROVADO,PLANEJADAS"
+    },
+    {
+      "fieldName": "valorDiariasRealizadas",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "saldoDisponivel",
+      "fieldType": "Double"
+    }
+  ],
+  "name": "Missao",
+  "pagination": "pagination",
+  "relationships": [
+    {
+      "otherEntityName": "cidades",
+      "relationshipName": "municipio",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "diaria",
+      "relationshipName": "diarias",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

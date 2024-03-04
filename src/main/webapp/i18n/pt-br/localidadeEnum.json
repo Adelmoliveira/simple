@@ -1,0 +1,10 @@
+{
+  "iceaApp": {
+    "LocalidadeEnum": {
+      "null": "",
+      "MAJORADA": "MAJORADA",
+      "COMUM": "COMUM",
+      "CAPITAL": "CAPITAL"
+    }
+  }
+}

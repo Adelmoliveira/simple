@@ -1,0 +1,9 @@
+export enum AcaoEnum {
+  APROVADA = 'APROVADA',
+
+  CANCELADA = 'CANCELADA',
+
+  AGUARDANDO = 'AGUARDANDO',
+
+  PRODUZIR = 'PRODUZIR',
+}

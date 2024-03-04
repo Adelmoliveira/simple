@@ -1,0 +1,175 @@
+entity Setor {
+    id Long,
+    nome String required,
+    sigla String required
+}
+
+entity Diaria {
+    id Long,
+    cidade String required,
+    oficialSup Double,
+    oficial Double,
+    graduado Double,
+    praca Double,
+    civil Double,
+    localidade DiariaLocalidadeEnum required
+}
+
+entity Cidades {
+    cidade DiariaLocalidadeEnum,
+    valorLocalidade LocalidadeEnum
+}
+
+entity Missao {
+    id Long,
+    nomeMissao String,
+    prioridade Prioridade,
+    quantidadeDiaria Long,
+    meiaDiaria Boolean,
+    quantidadeEquipe Integer,
+    dataInicio LocalDate,
+    dataTermino LocalDate,
+    deslocamento Boolean,
+    passagemAerea Boolean,
+    status StatusEnum,
+    osverificada Boolean required,
+    acao AcaoEnum required,
+    valorTotalMissao OrcamentoEnum,
+    valorDiariasRealizadas Double,
+    saldoDisponivel Double
+}
+
+entity Servidor {
+    id Long,
+    foto Blob,
+    nome String required,
+    sobreNome String,
+    email String,
+    celular String,
+    posto PostoEnum required
+}
+
+entity Equipe {
+    id Long,
+    nome String,
+}
+
+enum StatusEnum {
+    APROVADA,
+    CANCELADA,
+    AGUARDANDO,
+    FINALIZADA,
+    PRODUZIR
+}
+
+enum AcaoEnum {
+    APROVADA,
+    CANCELADA,
+    AGUARDANDO,
+    PRODUZIR
+}
+
+enum OrcamentoEnum {
+    DISPONIBILIZADO,
+    REALIZADO,
+    PROPOSTA,
+    SALDO,
+    TOTALAPROVADO,
+    PLANEJADAS
+}
+
+enum Prioridade {
+    ALTA,
+    MEDIA,
+    BAIXA
+}
+
+enum DiariaLocalidadeEnum {
+    BRASILIA,
+    MANAUS,
+    RIO_DE_JANEIRO,
+    BELO_HORIZONTE,
+    FORTALEZA,
+    PORTO_ALEGRE,
+    RECIFE,
+    SALVADOR,
+    SAO_PAULO,
+    BOA_VISTA,
+    RIO_BRANCO,
+    BELEM,
+    MACAPA,
+    PORTO_VELHO,
+    PALMAS,
+    MACEIO,
+    SAO_LUIS,
+    JOAO_PESSOA,
+    TERESINA,
+    NATAL,
+    ARACAJU,
+    GOIANIA,
+    CUIABA,
+    CAMPO_GRANDE,
+    VITORIA,
+    CURITIBA,
+    FLORIANOPOLIS,
+    OUTROS
+}
+
+enum LocalidadeEnum {
+    MAJORADA,
+    COMUM,
+    CAPITAL
+}
+
+enum PostoEnum {
+    OficialSuper,
+    Oficial,
+    Graduado,
+    Praca,
+    Civil
+}
+
+relationship ManyToMany {
+    Servidor{equipes} to Equipe{servidores}
+}
+
+relationship OneToOne {
+    Setor{servidor} to Servidor{setor}
+}
+
+relationship OneToOne {
+    Missao{municipio} to Cidades
+}
+
+relationship OneToMany {
+    Missao{diarias} to Diaria
+}
+
+// Definindo opções de paginação
+paginate Missao, Servidor, Equipe with infinite-scroll
+paginate Missao with pagination
+
+// Utilizando Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Definindo opções de serviço para todos exceto alguns
+service all with serviceImpl except Missao, Servidor, Equipe
+
+// Definindo um sufixo angular
+angularSuffix * with mySuffix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

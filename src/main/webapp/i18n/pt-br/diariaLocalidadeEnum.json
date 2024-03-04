@@ -1,0 +1,35 @@
+{
+  "iceaApp": {
+    "DiariaLocalidadeEnum": {
+      "null": "",
+      "BRASILIA": "BRASILIA",
+      "MANAUS": "MANAUS",
+      "RIO_DE_JANEIRO": "RIO_DE_JANEIRO",
+      "BELO_HORIZONTE": "BELO_HORIZONTE",
+      "FORTALEZA": "FORTALEZA",
+      "PORTO_ALEGRE": "PORTO_ALEGRE",
+      "RECIFE": "RECIFE",
+      "SALVADOR": "SALVADOR",
+      "SAO_PAULO": "SAO_PAULO",
+      "BOA_VISTA": "BOA_VISTA",
+      "RIO_BRANCO": "RIO_BRANCO",
+      "BELEM": "BELEM",
+      "MACAPA": "MACAPA",
+      "PORTO_VELHO": "PORTO_VELHO",
+      "PALMAS": "PALMAS",
+      "MACEIO": "MACEIO",
+      "SAO_LUIS": "SAO_LUIS",
+      "JOAO_PESSOA": "JOAO_PESSOA",
+      "TERESINA": "TERESINA",
+      "NATAL": "NATAL",
+      "ARACAJU": "ARACAJU",
+      "GOIANIA": "GOIANIA",
+      "CUIABA": "CUIABA",
+      "CAMPO_GRANDE": "CAMPO_GRANDE",
+      "VITORIA": "VITORIA",
+      "CURITIBA": "CURITIBA",
+      "FLORIANOPOLIS": "FLORIANOPOLIS",
+      "OUTROS": "OUTROS"
+    }
+  }
+}

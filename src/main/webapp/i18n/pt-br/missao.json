@@ -1,0 +1,40 @@
+{
+  "iceaApp": {
+    "missao": {
+      "home": {
+        "title": "Missaos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Missao",
+        "createOrEditLabel": "Criar ou editar Missao",
+        "notFound": "Nenhum Missao encontrado"
+      },
+      "created": "Um novo Missao foi criado com o identificador { param }",
+      "updated": "Um Missao foi atualizado com o identificador { param }",
+      "deleted": "Um Missao foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Missao { id }?"
+      },
+      "detail": {
+        "title": "Missao"
+      },
+      "id": "Id",
+      "nomeMissao": "Nome Missao",
+      "prioridade": "Prioridade",
+      "quantidadeDiaria": "Quantidade Diaria",
+      "meiaDiaria": "Meia Diaria",
+      "quantidadeEquipe": "Quantidade Equipe",
+      "dataInicio": "Data Inicio",
+      "dataTermino": "Data Termino",
+      "deslocamento": "Deslocamento",
+      "passagemAerea": "Passagem Aerea",
+      "status": "Status",
+      "osverificada": "Osverificada",
+      "acao": "Acao",
+      "valorTotalMissao": "Valor Total Missao",
+      "valorDiariasRealizadas": "Valor Diarias Realizadas",
+      "saldoDisponivel": "Saldo Disponivel",
+      "municipio": "Municipio",
+      "diarias": "Diarias"
+    }
+  }
+}

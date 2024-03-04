@@ -1,0 +1,50 @@
+{
+  "angularJSSuffix": "mySuffix",
+  "annotations": {
+    "changelogDate": "20240223191115"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "diaria",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "cidade",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "oficialSup",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "oficial",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "graduado",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "praca",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "civil",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "localidade",
+      "fieldType": "DiariaLocalidadeEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "BRASILIA,MANAUS,RIO_DE_JANEIRO,BELO_HORIZONTE,FORTALEZA,PORTO_ALEGRE,RECIFE,SALVADOR,SAO_PAULO,BOA_VISTA,RIO_BRANCO,BELEM,MACAPA,PORTO_VELHO,PALMAS,MACEIO,SAO_LUIS,JOAO_PESSOA,TERESINA,NATAL,ARACAJU,GOIANIA,CUIABA,CAMPO_GRANDE,VITORIA,CURITIBA,FLORIANOPOLIS,OUTROS"
+    }
+  ],
+  "name": "Diaria",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

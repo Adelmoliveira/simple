@@ -1,0 +1,63 @@
+{
+  "angularJSSuffix": "mySuffix",
+  "annotations": {
+    "changelogDate": "20240223191415"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "servidor",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "foto",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sobreNome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "celular",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "posto",
+      "fieldType": "PostoEnum",
+      "fieldValidateRules": ["required"],
+      "fieldValues": "OficialSuper,Oficial,Graduado,Praca,Civil"
+    }
+  ],
+  "name": "Servidor",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "equipe",
+      "otherEntityRelationshipName": "servidores",
+      "relationshipName": "equipes",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-many"
+    },
+    {
+      "otherEntityName": "setor",
+      "otherEntityRelationshipName": "servidor",
+      "relationshipName": "setor",
+      "relationshipSide": "right",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

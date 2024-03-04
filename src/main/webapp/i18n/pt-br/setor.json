@@ -1,0 +1,26 @@
+{
+  "iceaApp": {
+    "setor": {
+      "home": {
+        "title": "Setors",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Setor",
+        "createOrEditLabel": "Criar ou editar Setor",
+        "notFound": "Nenhum Setor encontrado"
+      },
+      "created": "Um novo Setor foi criado com o identificador { param }",
+      "updated": "Um Setor foi atualizado com o identificador { param }",
+      "deleted": "Um Setor foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Setor { id }?"
+      },
+      "detail": {
+        "title": "Setor"
+      },
+      "id": "Id",
+      "nome": "Nome",
+      "sigla": "Sigla",
+      "servidor": "Servidor"
+    }
+  }
+}

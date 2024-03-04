@@ -1,0 +1,12 @@
+{
+  "iceaApp": {
+    "StatusEnum": {
+      "null": "",
+      "APROVADA": "APROVADA",
+      "CANCELADA": "CANCELADA",
+      "AGUARDANDO": "AGUARDANDO",
+      "FINALIZADA": "FINALIZADA",
+      "PRODUZIR": "PRODUZIR"
+    }
+  }
+}

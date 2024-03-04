@@ -1,0 +1,13 @@
+{
+  "iceaApp": {
+    "OrcamentoEnum": {
+      "null": "",
+      "DISPONIBILIZADO": "DISPONIBILIZADO",
+      "REALIZADO": "REALIZADO",
+      "PROPOSTA": "PROPOSTA",
+      "SALDO": "SALDO",
+      "TOTALAPROVADO": "TOTALAPROVADO",
+      "PLANEJADAS": "PLANEJADAS"
+    }
+  }
+}

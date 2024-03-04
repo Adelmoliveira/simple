@@ -1,0 +1,25 @@
+{
+  "angularJSSuffix": "mySuffix",
+  "annotations": {
+    "changelogDate": "20240223191215"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "cidades",
+  "fields": [
+    {
+      "fieldName": "cidade",
+      "fieldType": "DiariaLocalidadeEnum",
+      "fieldValues": "BRASILIA,MANAUS,RIO_DE_JANEIRO,BELO_HORIZONTE,FORTALEZA,PORTO_ALEGRE,RECIFE,SALVADOR,SAO_PAULO,BOA_VISTA,RIO_BRANCO,BELEM,MACAPA,PORTO_VELHO,PALMAS,MACEIO,SAO_LUIS,JOAO_PESSOA,TERESINA,NATAL,ARACAJU,GOIANIA,CUIABA,CAMPO_GRANDE,VITORIA,CURITIBA,FLORIANOPOLIS,OUTROS"
+    },
+    {
+      "fieldName": "valorLocalidade",
+      "fieldType": "LocalidadeEnum",
+      "fieldValues": "MAJORADA,COMUM,CAPITAL"
+    }
+  ],
+  "name": "Cidades",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

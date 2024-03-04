@@ -1,0 +1,12 @@
+{
+  "iceaApp": {
+    "PostoEnum": {
+      "null": "",
+      "OficialSuper": "OficialSuper",
+      "Oficial": "Oficial",
+      "Graduado": "Graduado",
+      "Praca": "Praca",
+      "Civil": "Civil"
+    }
+  }
+}

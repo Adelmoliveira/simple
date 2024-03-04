@@ -1,0 +1,11 @@
+{
+  "iceaApp": {
+    "AcaoEnum": {
+      "null": "",
+      "APROVADA": "APROVADA",
+      "CANCELADA": "CANCELADA",
+      "AGUARDANDO": "AGUARDANDO",
+      "PRODUZIR": "PRODUZIR"
+    }
+  }
+}
